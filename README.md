@@ -14,7 +14,7 @@
 
 <br>
 
-<p align="center">
+<div align="center">
 
 <a href="https://github.com/topics/satellite-imagery">Satellite Imagery</a> &nbsp;&nbsp;✦&nbsp;&nbsp;
 <a href="https://github.com/topics/data-visualization">Urban Analytics</a> &nbsp;&nbsp;✦&nbsp;&nbsp;
@@ -22,7 +22,7 @@
 <a href="https://github.com/topics/yolo">YOLOv8 / YOLOv11</a> &nbsp;&nbsp;✦&nbsp;&nbsp;
 <a href="https://github.com/topics/geospatial">Geospatial Intelligence</a>
 
-</p>
+</div>
 
 <br>
 
