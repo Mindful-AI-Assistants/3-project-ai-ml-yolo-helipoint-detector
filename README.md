@@ -6,7 +6,7 @@
 
 
 
-# <p align="center"> 🧠  3- AI / ML - Project 2: Computer Vision]() /   [Helipoint Detector]()
+#  <p align="center"> 3- 🧠 [AI /ML - Project 2]() /  [Computer Vision]() - [Helipoint Detector]()
 
 ### <p align="center"> Automated Helipad Detection Using YOLO and Satellite Imagery of São Paulo, Brazil
 
