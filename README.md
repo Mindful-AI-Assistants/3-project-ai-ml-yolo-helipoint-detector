@@ -27,5 +27,14 @@
 <br>
 
 
+#
+
+#### <p align="center"> ✨ ***From Pixels to Geospatial Intelligence*** ✨
+
+
+<!--
 #### <p align="center"> Teaching YOLO to say: ***“Yup  !!! that's definitely an H !!*** 
-##### <p align="center"> ***Finding Hidden H's in the Concrete Jungle...*** ⚡️ One Rooftop at a Time.</p>
+##### <p align="center"> ***Finding Hidden H's in the Concrete Jungle...*** ⚡️ One Rooftop at a Time.
+-->
+
+<br><br>
