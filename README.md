@@ -562,7 +562,7 @@ The Helipoint Detector technical pipeline can be summarized in 12 steps:
 [5.]() Download ESRI World Imagery satellite tiles
 [6.]() Build mosaics per neighborhood or region
 [7.]() Manually triage mosaics, keeping only images with helipads
-[8](). Upload selected images to Roboflow
+[8.]() Upload selected images to Roboflow
 [9.]() Annotate helipads with consistent bounding boxes
 [10.]() Generate dataset versions with resize, splits and augmentations, exporting in YOLO format
 [11.]() Train YOLO models in Colab, monitoring metrics and train/validation curves
@@ -579,30 +579,32 @@ The Helipoint Detector technical pipeline can be summarized in 12 steps:
 
 ## [Image Collection and Generation***]()
 
-### [***Programmatic collection (ESRI World Imagery)]()
+### [***Programmatic collection (ESRI World Imagery)***]()
 
 Programmatic collection follows the XYZ tile pattern of the **ESRI World Imagery** public service, as recommended in the briefing:
 
-[-]( define [**zoom**]() by target type
-[-]( use `z = 19` for helipads and other small targets
-[-]( define **bounding boxes** per neighborhood `(lon_min, lat_min, lon_max, lat_max)`
-[-]( convert bounding boxes to tile indices `(z, x, y)` via a `deg2tile` function
-[-]( download each tile, checking HTTP status and filtering placeholders
-[-]( organize tiles into folders by neighborhood and zoom
+[-]() define [**zoom**]() by target type
+[-]()use `z = 19` for helipads and other small targets
+[-]() define **bounding boxes** per neighborhood `(lon_min, lat_min, lon_max, lat_max)`
+[-]() convert bounding boxes to tile indices `(z, x, y)` via a `deg2tile` function
+[-]() download each tile, checking HTTP status and filtering placeholders
+[-]() organize tiles into folders by neighborhood and zoom
 
 <br>
 
+> [!TIP]
+>
 > The `Imagens.ipynb` notebook generalizes this flow for multiple coordinates and bounding boxes, reading `cordenadasheli.csv` and producing > mosaics and crops ready for triage.
 
-<br>
+<br><br>
 
 ### [***Complementary manual collection (Google Earth Web***]()
 
 In some cases, **Google Earth Web** may be used as a complement:
 
-[-](only for specific helipad examples
-[-]( preserving consistent zoom
-[-]( cropping approximately square areas and resizing to `640×640`
+[-]() only for specific helipad examples
+[-]() preserving consistent zoom
+[-]() cropping approximately square areas and resizing to `640×640`
 
 <br>
 
