@@ -5,6 +5,8 @@
 <br><br>
 <!--END 🇬🇧English LANGUAGE BUTTON  -->>
 
+
+<!-- ========= START HEADER========= -->
 # <p align="center">🧠 AI/ML Project 2 · Computer Vision · Helipoint Detector</p>
 
 ### <p align="center">Automated Helipad Detection Using YOLO and Satellite Imagery of São Paulo, Brazil</p>
@@ -39,7 +41,7 @@
 #
 
 <br><br>
-<!-- ========= END REPO TITLE ========= -->
+<!-- ========= END HEADER========= -->
 
 <!-- ========= START SPONSOR BADGE ========= -->
 #### <p align="center"> [![Sponsor Mindful AI Assistants](https://img.shields.io/badge/Sponsor-%C2%B7%C2%B7%C2%B7%20Mindful%20AI%20Assistants%20%C2%B7%C2%B7%C2%B7-brightgreen?logo=GitHub)](https://github.com/sponsors/Mindful-AI-Assistants)
@@ -102,8 +104,7 @@
       alt="React Presentation Slides and Overview"
       style="height: 32px; width: auto; margin-right: 8px;"
     />
-  </a>
-  
+  </a>  
 <!-- =========End Eeact Presentation BADGE ========= -->
 
 
@@ -124,6 +125,7 @@
 #
 
 <br><br>
+<!-- ========= End  Data Analysis Report BADGE ========= -->
 
 <!-- ========= START TECH STACK / PIPELINE BADGES ========= -->
 <p align="center">
@@ -191,7 +193,7 @@
 <br><br>
 <!-- =========ENDMAIN REPO =Projects REFERENCES ========= -->
 
-
+<!-- =========START !IMPORTANT NOTE========= -->
 > [!IMPORTANT]
 >
 > This repository documents an end-to-end academic project in Computer Vision for automatic 
@@ -200,8 +202,9 @@
 > [**evaluation on unseen neighborhoods**](), in line with the briefing of Project 2 in the Machine Learning course.
 
 <br><br>
+<!-- =========END!IMPORTANT NOTE========= -->
 
-
+<!-- ============================= START BODY=============================  -->
 ## [Table of Contents]()
 
 - [Project Definition](#project-definition)
