@@ -832,11 +832,15 @@ ne of the most important parts of the project is testing whether the model gener
 
 The pipeline includes:
 
-1. generating mosaics for a **neighborhood entirely excluded from training**
-2. running the YOLO model on **all tiles** of this mosaic
-3. discussing in the report/notebook at least **5 tiles** with hits, false positives and false negatives
+1. generating mosaics for a [**neighborhood entirely excluded from training**]()
+2. running the YOLO model on [**all tiles**]() of this mosaic
+3. discussing in the report/notebook at least [**5 tiles**]() with hits, false positives and false negatives
 
-Example inference code:
+<br>
+
+➠ [***Example inference code:***]()
+
+<br>
 
 ```python
 from ultralytics import YOLO
@@ -850,7 +854,7 @@ results = model.predict(
 )
 ```
 
-
+<br><br>
 
 
 
